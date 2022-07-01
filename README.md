@@ -14,7 +14,7 @@ FSDP now has the ability to auto-insert checkpoints using a similar process as t
 
 Video and notebook are in the folder [here](./activation_checkpointing_tutorial) 
 
-3 - ** Loading and Saving Model and Optimizer checkpoints (with FULL_STATE_DICT) **
+3 - **Loading and Saving Model and Optimizer checkpoints, with FULL_STATE_DICT (video + notebook)**
 
 Saving and loading your training checkpoints is an essential task, and this tutorial covers how to do that with FSDP.  There are multiple state dict types within FSDP - this tutorial covers FULL_STATE_DICT, which is the typical use case within the constraint that the entire checkpoint (model or optimizer) is able to fit within your available cpu memory. 
 For models that go beyond cpu memory (eg 20-30B+), we'll use distributed checkpoints via LOCAL_STATE_DICT which will be covered in a seperate tutorial.
