@@ -11,7 +11,7 @@ For models larger than this, we'll use LOCAL_STATE_DICT, which is a different tu
 If you are working with models that are likely to fit within your cpu memory, then we have both a video and notebook to help explain the process!
 
 Details in our video here:
-https://www.loom.com/share/ebb1d317d01a44b8aad54530a73e7bf1
+[https://www.loom.com/share/ebb1d317d01a44b8aad54530a73e7bf1](https://www.loom.com/share/97fb9a52037b4834a99a142d30ce6ee6)
 
 and in the notebook:
 load_save_full.ipynb
