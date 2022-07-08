@@ -21,7 +21,7 @@ For models that go beyond cpu memory (eg 20-30B+), we'll use distributed checkpo
 
 Video and notebook are in the folder [here](./loading_saving_checkpoints_FULL_STATE_DICT)
 
-4 - **Backwards Prefetching - optimize your training speed by increasing communication overlap (video + notebook)**
+4 - **Backwards Prefetching - optimize your training speed by increasing communication and computation overlap (video + notebook)**
 
 FSDP has multiple options for optimizing communication and computation overlap during the backward pass of training.
 In this tutorial, we show the three current options, how to use them, and explain at a parameter level what the differences are. 
