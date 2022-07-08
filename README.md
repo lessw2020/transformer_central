@@ -21,6 +21,10 @@ For models that go beyond cpu memory (eg 20-30B+), we'll use distributed checkpo
 
 Video and notebook are in the folder [here](./loading_saving_checkpoints_FULL_STATE_DICT)
 
+4 - **Backwards Prefetching - how to optimize your training speed by increasing communication overlap (video + notebook)**
+
+Video and notebook are in the folder [here](./backwards_prefetching)
+
 
 
 
