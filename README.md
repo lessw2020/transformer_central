@@ -47,15 +47,5 @@ FSDP thus is becoming a universal training framework for models ranging from 100
 
 In this tutorial, you will learn how to modify the FSDP sharding strategy, understand the relative tradeoffs, and see the comparative growth in size of model trainable on a fixed server simply by adjusting the sharding strategy. 
 
-Video and notebook are in the folder [here](./sharding_strategy)
-
-
- 
-
-
-
-
-
-
-
+Video and notebook are in the folder [here](./sharding_strategies)
 
