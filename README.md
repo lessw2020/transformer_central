@@ -38,6 +38,18 @@ This is not correct though as you need to optimize by ensuring you are not hitti
 This tutorial covers an example with tuning a 2B model in FSDP, and the improvements by avoiding retries (**25% greater throughput** vs conventional practice), as well as offers a utility class (Memory_Maximizer) you can add to your project to automatically monitor gpu info and retry counts for optimizing. 
 
 Video, notebook and utility file are in the folder [here](./throughput_max_gpu)
+
+6 - **Sharding Strategies for FSDP (video + notebook)**:
+
+FSDP has 3 different sharding strategies which allow you to customize the tradeoff between memory vs communication, and thus with a single line of code, 
+go from DDP -> Zero2 -> Full Shard. 
+FSDP thus is becoming a universal training framework for models ranging from 100M - 1 Trillion+. 
+
+In this tutorial, you will learn how to modify the FSDP sharding strategy, understand the relative tradeoffs, and see the comparative growth in size of model trainable on a fixed server simply by adjusting the sharding strategy. 
+
+Video and notebook are in the folder [here](./sharding_strategy)
+
+
  
 
 
