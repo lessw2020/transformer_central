@@ -5,10 +5,9 @@ You can thus control the datatype for your parameters, your gradient communicati
 Thus tutorial shows you how to do that as well as offers some best practices and a Bfloat16 checker module that 
 will confirm both native GPU and network support for BFloat16. 
 
-
 Video: https://www.loom.com/share/e308e10907884356ac263d269263e0bd
 
-Notebook:
+Notebook: mixed_precision.ipynb
 
-Code module: 
+Importable Code module: bfloat_verify.py
 
