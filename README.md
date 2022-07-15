@@ -49,3 +49,13 @@ In this tutorial, you will learn how to modify the FSDP sharding strategy, under
 
 Video and notebook are in the folder [here](./sharding_strategies)
 
+7 - **Mixed Precision with FSDP (video + notebook + importable module)**:
+
+FSDP allows you to easily switch between various datatypes (Bfloat16, FP16, FP32) for your training via custom policies. 
+You can thus control the datatype for your parameters, your gradient communication and your buffers. 
+This tutorial shows you how to do that as well as offers some best practices and a Bfloat16 checker module that will confirm both native GPU and network support for BFloat16.
+
+Video and notebook are [here](./mixed_precision)
+
+
+
