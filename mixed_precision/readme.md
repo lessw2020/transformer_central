@@ -7,7 +7,7 @@ will confirm both native GPU and network support for BFloat16.
 
 Video: https://www.loom.com/share/e308e10907884356ac263d269263e0bd
 
-Notebook: mixed_precision.ipynb
+Notebook: mixed_precision_fsdp.ipynb
 
 Importable Code module: bfloat_verify.py
 
