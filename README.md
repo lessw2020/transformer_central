@@ -63,7 +63,7 @@ FSDP has two methods for saving and loading models. Full State Dict saves and lo
 
 This tutorial will show you how to work with local state / distributed checkpoints. The notebook has saving and loading functions you can directly leverage.
 
-Video and notebook are [here](./https://github.com/saving_loading_models_local_state)
+Video and notebook are [here](./saving_loading_models_local_state)
 
 
 
