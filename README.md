@@ -59,7 +59,11 @@ Video and notebook are [here](./mixed_precision)
 
 8 - **Saving and Loading models with FSDP Local State Dict (distributed checkpoints)**:
 
-Video and notebook are [here](./https://github.com/loading_saving_models_full_state)
+FSDP has two methods for saving and loading models. Full State Dict saves and loads with the single file (.pt) concept. By contrast, Local State Dict saves to an exclusive directory, with potentially thousands of smaller files and a single .metadata file. The key benefit is local state dict allows model saving and loading for gigantic models where assembling it for single file saving and loading would exceed CPU memory.
+
+This tutorial will show you how to work with local state / distributed checkpoints. The notebook has saving and loading functions you can directly leverage.
+
+Video and notebook are [here](./https://github.com/saving_loading_models_local_state)
 
 
 
