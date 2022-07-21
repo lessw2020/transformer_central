@@ -7,5 +7,5 @@ This tutorial will show you how to work with local state / distributed checkpoin
 
 Video: https://www.loom.com/share/be15a814a28145b9aebbaac683a44e3b
 
-Notebook:
+Notebook: distributed_checkpointing.ipynb
 
