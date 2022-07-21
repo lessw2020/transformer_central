@@ -57,5 +57,9 @@ This tutorial shows you how to do that as well as offers some best practices and
 
 Video and notebook are [here](./mixed_precision)
 
+8 - **Saving and Loading models with FSDP Local State Dict (distributed checkpoints)**:
+
+Video and notebook are [here](./https://github.com/loading_saving_models_full_state)
+
 
 
