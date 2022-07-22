@@ -65,5 +65,11 @@ This tutorial will show you how to work with local state / distributed checkpoin
 
 Video and notebook are [here](./saving_loading_models_local_state)
 
+9 - **Fine Tuning Models with FSDP (video + notebook)**:
+
+FSDP currently does not support layer level freezing for fine tuning (due to the sharding).  However, in this tutorial will discuss how to use Child Fine Tuning, which has been shown to outperform vanilla fine tuning on a variety of language tasks. 
+
+Video and notebook are [here](./fine_tuning/readme.md)
+
 
 

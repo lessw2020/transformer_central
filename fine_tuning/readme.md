@@ -12,9 +12,9 @@ This allows for both fine tuning while not losing generalization the models orig
 
 We had good success with this for our 3B T5 Grammar checker workshop example and this tutorial show the main method to implement this for your tasks.
 
-Video: 
+Video: https://www.loom.com/share/0f6b1d964f4246ee9b467c51cc5ad166
 
-Notebook: 
+Notebook: fine_tuning.ipynb
 
 
 
