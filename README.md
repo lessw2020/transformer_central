@@ -71,5 +71,8 @@ FSDP currently does not support layer level freezing for fine tuning (due to the
 
 Video and notebook are [here](./fine_tuning/readme.md)
 
+10 - **End to End overview of FSDP in a working codebase (video)**:
 
+This video tutorial does a 14 minute walkthrough of a codebase that is training a variety of models using FSDP.  The goal of this video is to show the overall features of FSDP within a codebase.  From there, you can dive into the detailed sub-tutorials on each specific topic of interest. 
 
+Video is [here](./end_to_end)
