@@ -75,4 +75,4 @@ Video and notebook are [here](./fine_tuning/readme.md)
 
 This video tutorial does a 14 minute walkthrough of a codebase that is training a variety of models using FSDP.  The goal of this video is to show the overall features of FSDP within a codebase.  From there, you can dive into the detailed sub-tutorials on each specific topic of interest. 
 
-Video is [here](./end_to_end)
+Video is [here](./end_to_end_overview)
