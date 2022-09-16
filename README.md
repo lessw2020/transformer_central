@@ -77,8 +77,8 @@ This video tutorial does a 14 minute walkthrough of a codebase that is training 
 
 Video is [here](./end_to_end_overview)
 
-11 - ** Using the new FSDP Rate Limiter to free up reserved memory and increase training speed **:
+11 - **Using the new FSDP Rate Limiter to free up reserved memory and increase training speed**:
 
-With PyTorch Nightly of 914 and higher a new 'limit_all_gathers' param has been added.  This activates an internal rate limiter that can avoid over buffering of GPU memory for some cases.  This 4 minute video walks you through the how and why of using the rate limiter for your training!
+With PyTorch Nightly 914 and higher, a new 'limit_all_gathers' param has been added to FSDP init, which controls the 'rate limiter' feature.  This activates an internal rate limiter that can avoid over buffering of GPU memory for some cases, and by reinvesting this newly freed memory you can potentially accelerate your training times.  This 4 minute video walks you through the how and why of using the rate limiter for your training!
 
-Video and notebook are [here].(./fsdp_rate_limiter)
+Video and notebook are [here](./fsdp_rate_limiter)
