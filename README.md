@@ -76,3 +76,9 @@ Video and notebook are [here](./fine_tuning/readme.md)
 This video tutorial does a 14 minute walkthrough of a codebase that is training a variety of models using FSDP.  The goal of this video is to show the overall features of FSDP within a codebase.  From there, you can dive into the detailed sub-tutorials on each specific topic of interest. 
 
 Video is [here](./end_to_end_overview)
+
+11 - ** Using the new FSDP Rate Limiter to free up reserved memory and increase training speed **:
+
+With PyTorch Nightly of 914 and higher a new 'limit_all_gathers' param has been added.  This activates an internal rate limiter that can avoid over buffering of GPU memory for some cases.  This 4 minute video walks you through the how and why of using the rate limiter for your training!
+
+Video and notebook are [here].(./fsdp_rate_limiter)
